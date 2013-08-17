@@ -52,21 +52,76 @@ the characters `\ { } $ ^ _ % ~ # &` are used for special purposes within LaTeX.
  `&` is used when typesetting tables in order to separate entries in different columns.
 
 
-Producing a LaTeX Input File
+Producing Simple Documents using LaTeX
 ----------------------------
 
- first line of the input file should normally consist of an appropriate `\documentclass` command
+ first line of the input file should normally consist of an appropriate `\documentclass[a4paper,12pt]{article}` command
  
- optional commands, such as the `\pagestyle` command
+  - article, letters, reports, books, etc
  
- `\begin{document}`
+optional commands, such as the `\pagestyle` command
  
- main body of the text
+`\begin{document}`
  
- `\end{document}`
+main body of the text
+ 
+`\end{document}`
  
  
+LaTeX will automatically indent all paragraphs with the exception of the first paragraph of a new section.
+
+blank space equivalent
+  - carriage return at the end of a line
+  - tab characters as blank spaces
+  - a sequence of blank spaces as though it were a single space
+  -
+Ignores blank spaces at the beginning or end of a line
+
+Any spaces which follow a control sequence will be ignored by LaTeX.
+
+A blank space should not occur in the input file after a left parenthesis or before a right parenthesis.
+
+Single quotation marks are produced in LaTeX using ` and '
+
+Double quotation marks are produced by typing `` and ''
+
+ hyphens -
+ en-dashes --
+ em-dashes ---
+ 
+use the control sequence \, between the quotation marks, so as to obtain the necessary amount of separation.
+
+`\section`,`\subsection` and `\subsubsection`
+
+  - Other document styles have other `sectioning' commands availableeg. the book style has a `\chapter` 
+  - `\section*{Section Headings}` suppress the automatic numbering 
+
+`\emph{text}` 
+
+`\textbf{text}`
+
+    \tiny, \scriptsize, \footnotesize, \small, \normalsize, \large, \Large, \LARGE, \huge, \HUGE
+    
+`\textrm`   Roman family
+`\textsf`   Sans serif family
+`\texttt`   Typewriter family
+
+`\textup`   Upright shape
+`\textit`   Italic shape
+`\textsl`   Slanted shape
+`\textsc`   Small caps shape
+
+`\textmd`   Medium series
+`\textbf`   Boldface series
+
+
+
+
  
  
+
+
+
+
 
 
