@@ -93,7 +93,7 @@ use the control sequence \, between the quotation marks, so as to obtain the nec
 
 `\section`,`\subsection` and `\subsubsection`
 
-  - Other document styles have other `sectioning' commands availableeg. the book style has a `\chapter` 
+  - Other document styles have other sectioning commands available. eg. the book style has a `\chapter` 
   - `\section*{Section Headings}` suppress the automatic numbering 
 
 `\emph{text}` 
