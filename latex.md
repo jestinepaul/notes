@@ -71,6 +71,7 @@ main body of the text
 LaTeX will automatically indent all paragraphs with the exception of the first paragraph of a new section.
 
 blank space equivalent
+
   - carriage return at the end of a line
   - tab characters as blank spaces
   - a sequence of blank spaces as though it were a single space
@@ -85,9 +86,9 @@ Single quotation marks are produced in LaTeX using ` and '
 
 Double quotation marks are produced by typing `` and ''
 
- hyphens -
- en-dashes --
- em-dashes ---
+ - hyphens `-`
+ - en-dashes `--`
+ - em-dashes `---`
  
 use the control sequence \, between the quotation marks, so as to obtain the necessary amount of separation.
 
@@ -179,7 +180,6 @@ LaTeX provides the following list environments:
 
  
  
-
 
 
 
