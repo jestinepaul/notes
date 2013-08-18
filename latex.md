@@ -170,6 +170,33 @@ LaTeX provides the following list environments:
     \end{enumerate}
 ```
 
+Displayed quotations can be embedded in text using
+`\begin{quote}` ... `\end{quote}`
+and
+`\begin{quotation}` ... `\end{quotation}`
+
+fixed-width typewriter font lines should be enclosed between `\begin{verbatim}` and `\end{verbatim}`
+
+The control sequence `\verb` can be used to incorporate a typewriter font string of characters unaltered into a paragraph of text .  eg. `\verb/\alpha/` produces `\alpha`. The string of characters should be enclosed between two instances of some character that is not included in the string.
+
+Tables can be produced in LaTeX using the `tabular`environment
+
+```latex
+    \begin{tabular}{|l||l|l||l|l|}
+    \hline
+     &\multicolumn{2}{l|}{Singular}&\multicolumn{2}{l|}{Plural}\\
+    \cline{2-5}
+     &English&\textbf{Gaeilge}&English&\textbf{Gaeilge}\\
+    \hline\hline
+    1st Person&at me&\textbf{agam}&at us&\textbf{againn}\\
+    2nd Person&at you&\textbf{agat}&at you&\textbf{agaibh}\\
+    3rd Person&at him&\textbf{aige}&at them&\textbf{acu}\\
+     &at her&\textbf{aici}& & \\
+    \hline
+    \end{tabular}
+```
+
+
 
 
 
