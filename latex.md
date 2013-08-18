@@ -196,9 +196,25 @@ Tables can be produced in LaTeX using the `tabular`environment
     \end{tabular}
 ```
 
+![](http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/EX_agam.gif)
+
+format specification after \begin{tabular} should consist of one or more of the following, enclosed within braces { and }:
+
+  - l specifies a column of left-justified text
+  - c specifies a column of centred text
+  - r specifies a column of right-justified text
+  - p{width} specifies a left-justified column of the given width
+  - | inserts a vertical line between columns
+  - @{text} inserts the given text between columns
 
 
+15 columns of right-justified text enclosed within vertical lines can be produced using the format specification `{|*{15}{r|}}`
 
+`\\[6pt]` to separate two rows of the table by 6 points of blank space
+
+`\cline{3-5}` produces a horizontal line spanning columns 3, 4 and 5 of some table.
+
+ `\multicolumn{num}{fmt}{text}` can be used within the body of a table to produce an entry spanning several columns.
 
 
 
