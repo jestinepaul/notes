@@ -154,7 +154,7 @@ LaTeX provides the following list environments:
   - itemize for un-numbered lists,
   - description for description lists
 
-```
+```latex
     \begin{enumerate}
     \item
     $d(x,y) \geq 0$ for all points $x$ and $y$ of $X$;
