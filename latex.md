@@ -123,6 +123,57 @@ use the control sequence \, between the quotation marks, so as to obtain the nec
    - ~ `\char126`
 
 
+Further Features of LaTeX
+-------------------------
+
+to produce a horizontal blank space of 20 mm in the middle of a paragraph one would type `\hspace{20 mm}`
+
+`\hspace*` ensures that white space is produced even at points in the document where line breaking takes place
+
+`\vspace` produces (vertical) blank space between paragraphs
+
+`\vspace*` white space is produced even at points in the document where page breaking takes place
+
+LaTeX will put an extra amount of space after a full stop, if it is preceded by a lowercase letter.
+
+Common abbreviations (as in "Mr. Smith" or in "etc.") shoud put a backslash before the blank space in question. eg. `Mr.\ Smith`, `etc.\ `, `Proc.\ Amer.\ Math.\ Soc.`
+
+`~` It represents a blank space at which LaTeX is not allowed to break between lines. eg. `W.~R.~Hamilton`, `Example~7`, `the length~$l$ of the rod.`
+
+One can prevent LaTeX from indenting a paragraph though by beginning the paragraph with the control sequence `\noindent`
+
+    \noindent
+    This is the beginning of a paragraph which is not
+    indented in the usual way.  This has been achieved
+    by placing an appropriate control sequence at the
+    beginning of the paragraph.
+
+LaTeX provides the following list environments:
+
+  - enumerate for numbered lists,
+  - itemize for un-numbered lists,
+  - description for description lists
+
+    \begin{enumerate}
+    \item
+    $d(x,y) \geq 0$ for all points $x$ and $y$ of $X$;
+    \item
+    $d(x,y) = d(y,x)$ for all points $x$ and $y$ of $X$;
+    \item
+    $d(x,z) \leq d(x,y) + d(y,z)$ for all points $x$, $y$
+    and $z$ of $X$;
+    \item
+    $d(x,y) = 0$ if and only if the points $x$ and $y$
+    coincide.
+    \end{enumerate}
+
+
+
+
+
+
+
+
 
 
  
