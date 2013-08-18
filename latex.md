@@ -154,6 +154,7 @@ LaTeX provides the following list environments:
   - itemize for un-numbered lists,
   - description for description lists
 
+```
     \begin{enumerate}
     \item
     $d(x,y) \geq 0$ for all points $x$ and $y$ of $X$;
@@ -166,7 +167,7 @@ LaTeX provides the following list environments:
     $d(x,y) = 0$ if and only if the points $x$ and $y$
     coincide.
     \end{enumerate}
-
+```
 
 
 
