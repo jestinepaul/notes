@@ -114,6 +114,14 @@ use the control sequence \, between the quotation marks, so as to obtain the nec
 `\textmd`   Medium series
 `\textbf`   Boldface series
 
+ variety of control sequences for producing accents. eg. `\'{o}` produces an acute accent on the letter o.
+ 
+ Avtive characters produced by typing `\# \$ \% \& \_ \{ \}`
+ 
+   - \ `\char92` 
+   - ^ `\char94`
+   - ~ `\char126`
+
 
 
 
